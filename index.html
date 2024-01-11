@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <h3>HOME</h3>
+                <h1 id="home-el">0</h1>
+                <button onclick="plusHomeOne()">+1</button>
+                <button onclick="plusHomeTwo()">+2</button>
+                <button onclick="plusHomeThree()">+3</button>
+            </div>
+            <div class="col">
+                <h3>GUEST</h3>
+                <h1 id="guest-el">0</h1>
+                <button onclick="plusGuestOne()">+1</button>
+                <button onclick="plusGuestTwo()">+2</button>
+                <button onclick="plusGuestThree()">+3</button>
+            </div>
+        </div>
+        <button id="new-game" onclick="newGame()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>

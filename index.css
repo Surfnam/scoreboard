@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    text-align: center
+}
+
+h3 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 30px 0px 10px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    display: block;
+    padding: 30px 10px 10px 10px;
+    width: 200px;
+    background: black;
+    margin: 0px 0px 20px 0px;
+    color: #F94F6D;
+    border-radius: 10px;
+    font-size: 100px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+button {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#new-game {
+    margin: 30px 0px 0px 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
